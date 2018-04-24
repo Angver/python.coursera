@@ -1,3 +1,6 @@
-import mypackage
+from mypackage.utils import *
 
-print(mypackage)
+if __name__ == "__main__":
+    print(multiply(2, 3))
+
+
